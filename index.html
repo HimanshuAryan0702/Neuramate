@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neuramate IT Solutions Pvt. Ltd. — Online Internship Program 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#4b6ef6;
+      --accent2:#8b5cf6;
+      --muted:#b8b8c9;
+      --card:rgba(255,255,255,0.15);
+      --text:#f3f4ff;
+      --shadow:0 12px 30px rgba(0,0,0,0.45);
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      margin:0;
+      background: linear-gradient(-45deg, #141522, #1a1b2f, #0f111d, #1e1e2e);
+      background-size:400% 400%;
+      animation:gradientMove 12s ease infinite;
+      color:var(--text);
+      overflow-x:hidden;
+    }
+
+    @keyframes gradientMove{
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+
+    .wrap{
+      max-width:1200px;
+      margin:0 auto;
+      padding:40px 25px 60px;
+      position:relative;
+      z-index:1;
+    }
+
+    header{
+      display:flex;
+      gap:20px;
+      align-items:center;
+      margin-bottom:25px;
+    }
+
+    .logo{
+      width:78px;
+      height:78px;
+      border-radius:20px;
+      background:linear-gradient(135deg,var(--accent),var(--accent2));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      font-weight:700;
+      font-size:28px;
+      box-shadow:0 0 18px rgba(75,110,246,0.6);
+      text-shadow:0 2px 6px rgba(0,0,0,0.4);
+    }
+
+    h1{
+      margin:0;
+      font-size:26px;
+      font-weight:700;
+      letter-spacing:0.3px;
+    }
+
+    .hero{
+      background:var(--card);
+      border:1px solid rgba(255,255,255,0.1);
+      padding:24px;
+      border-radius:18px;
+      box-shadow:var(--shadow);
+      backdrop-filter:blur(16px);
+      animation:fadeIn 0.8s ease;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 340px;
+      gap:24px;
+      margin-top:22px;
+    }
+
+    .card{
+      background:var(--card);
+      border:1px solid rgba(255,255,255,0.12);
+      padding:18px;
+      border-radius:16px;
+      box-shadow:var(--shadow);
+      backdrop-filter:blur(18px);
+      animation:fadeUp 1s ease;
+    }
+
+    .card h3{
+      margin-top:0;
+      font-weight:600;
+      color:#fff;
+      letter-spacing:0.4px;
+    }
+
+    .positions{
+      columns:2;
+      column-gap:20px;
+    }
+
+    ul{
+      padding-left:18px;
+    }
+
+    .small{
+      font-size:14px;
+      color:var(--muted);
+      line-height:1.6;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 18px;
+      border-radius:10px;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      color:#fff;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 0 20px rgba(75,110,246,0.45);
+      transition:all 0.25s ease;
+      border:none;
+    }
+
+    .btn:hover{
+      transform:translateY(-3px) scale(1.02);
+      box-shadow:0 0 25px rgba(139,92,246,0.6);
+    }
+
+    footer{
+      font-size:13px;
+      color:#a0a0b5;
+      text-align:center;
+      margin-top:35px;
+      padding-top:18px;
+      border-top:1px solid rgba(255,255,255,0.08);
+    }
+
+    .apply-buttons a{
+      display:block;
+      margin-bottom:10px;
+      text-align:center;
+    }
+
+    @keyframes fadeIn{
+      from{opacity:0;transform:translateY(-10px)}
+      to{opacity:1;transform:translateY(0)}
+    }
+
+    @keyframes fadeUp{
+      from{opacity:0;transform:translateY(20px)}
+      to{opacity:1;transform:translateY(0)}
+    }
+
+    @media(max-width:880px){
+      .grid{grid-template-columns:1fr}
+      .positions{columns:1}
+    }
+
+    #particles{
+      position:fixed;
+      top:0;left:0;
+      width:100%;height:100%;
+      z-index:0;
+      pointer-events:none;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <div class="wrap">
+    <header>
+      <div class="logo">N</div>
+      <div>
+        <h1>Neuramate IT Solutions Pvt. Ltd.</h1>
+        <div class="small">Online Internship Program — 2025 • Registered MSME / AICTE Listing (coming soon)</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h2 style="margin-bottom:8px;">Welcome Interns — Join Our Project-Based Online Internship</h2>
+      <p class="small">Hands-on projects, weekly assignments, QR-verified certificates, and placement support. Work remotely with flexible deadlines and real-world experience.</p>
+    </section>
+
+    <div class="grid">
+      <div>
+        <div class="card">
+          <h3>Available Positions</h3>
+          <div class="positions small">
+            <ul>
+              <li>React.js / MERN Stack Developer</li>
+              <li>.NET Web Development</li>
+              <li>Java / Python Programming</li>
+              <li>AI, ML & Data Science</li>
+              <li>Blockchain / Big Data</li>
+              <li>DevOps / AWS / Cloud</li>
+              <li>Cyber Security & Ethical Hacking</li>
+              <li>Data Analytics / SQL / Power BI</li>
+              <li>Full Stack Development</li>
+              <li>Frontend / Backend Engineering</li>
+              <li>UI/UX Design / Figma</li>
+              <li>Software Testing / Automation</li>
+              <li>IoT / VLSI / Embedded Systems</li>
+              <li>Digital Marketing & SEO</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>What We Offer</h3>
+          <ul class="small">
+            <li>Offer Letter & Verified Certificate (PDF + Hard Copy)</li>
+            <li>QR Verification & Unique Certificate ID</li>
+            <li>Flexible Work Model — Weekly Tasks</li>
+            <li>Placement Support & Mock Interviews</li>
+            <li>Hands-on Project with Mentorship</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Sample Documents</h3>
+          <p class="small">Click below to view sample Offer Letter and Certificate (opens in new tab):</p>
+          <p>
+            <a class="btn" href="https://docs.google.com/document/d/11lXRSmQw0NXFtzKC88XH5wORbQ3j8gr9OuYPfiZK-Dg/edit?usp=sharing" target="_blank">Sample Offer Letter</a>
+            <a class="btn" href="https://docs.google.com/document/d/1BgqDFqVGPPJHlYJcZO-x0UGaLLD-t5IgOhyveCh39vk/edit?usp=sharing" target="_blank" style="margin-left:10px;background:linear-gradient(90deg,#10b981,#34d399)">Sample Certificate</a>
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Important Policies</h3>
+          <p class="small">No refunds. Certificates are issued only after evaluation and completion. Plagiarism or fake work leads to permanent disqualification.</p>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Apply for Internship</h3>
+          <p class="small">Select your duration and apply using the Google Form below.</p>
+          <div class="apply-buttons">
+            <a class="btn" href="https://forms.gle/zAvxynXh2cdAKbVH7" target="_blank">Apply Now — 4 Weeks</a>
+            <a class="btn" href="https://forms.gle/zAvxynXh2cdAKbVH7" style="background:linear-gradient(90deg,#10b981,#34d399)" target="_blank">Apply Now — 6 Weeks</a>
+            <a class="btn" href="https://forms.gle/zAvxynXh2cdAKbVH7" style="background:linear-gradient(90deg,#f59e0b,#fbbf24)" target="_blank">Apply Now — 8 Weeks</a>
+            <a class="btn" href="https://forms.gle/zAvxynXh2cdAKbVH7" style="background:linear-gradient(90deg,#ef4444,#f87171)" target="_blank">Apply Now — Long Term</a>
+          </div>
+        </div>
+
+        <div class="card" style="text-align:center;">
+          <h3>Fill Application Form</h3>
+          <p class="small">Click below to open the registration form in a new tab.</p>
+          <a href="https://forms.gle/zAvxynXh2cdAKbVH7" target="_blank" class="btn">Open Google Form</a>
+        </div>
+
+        <div class="card">
+          <h3>Contact</h3>
+          <p class="small">
+            Email: <a href="mailto:info@neuramate.in" style="color:#a5b4fc">info@neuramate.in</a><br>
+            Phone: +91-XXXXXXXXXX
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div>© 2025 Neuramate IT Solutions Pvt. Ltd. — All Rights Reserved.</div>
+      <div>Powered by Neuramate • Privacy Policy • No Refunds</div>
+    </footer>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('particles');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    const particleCount = 70;
+
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    for (let i = 0; i < particleCount; i++) {
+      particles.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        r: Math.random() * 2 + 1,
+        dx: (Math.random() - 0.5) * 0.5,
+        dy: (Math.random() - 0.5) * 0.5
+      });
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = 'rgba(255,255,255,0.3)';
+      particles.forEach(p => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fill();
+        p.x += p.dx;
+        p.y += p.dy;
+        if (p.x < 0 || p.x > canvas.width) p.dx *= -1;
+        if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
+      });
+      requestAnimationFrame(draw);
+    }
+    draw();
+  </script>
+</body>
+</html>
